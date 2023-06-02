@@ -1,0 +1,412 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    font-family: 'Fira Sans', sans-serif;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+}
+
+.header{
+    background-color: #2C2C2C;
+    overflow: hidden;
+}
+
+
+/* header__menu-row */
+
+
+.header__menu-row{
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 57px 0px 54px 0px;
+}
+
+.header__logo-block{
+    display: flex;
+    align-items: center;
+    width: 40%;
+}
+
+.logo__img{
+    width: 70%;
+}
+
+.logo__title-block{
+
+}
+
+.logo__title{
+    font-size: 35px;
+    font-weight: 700;
+    color: #fff;
+    padding-right: 15px;
+}
+
+.logo__subtitle{
+    font-size: 28px;
+    font-size: 700;
+    padding-right: 15px;
+}
+
+.span__logo-subtitle{
+    
+    background: linear-gradient(142.02deg, #01DCBA 0%, #FA1BF2 185.95%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.header__contact-block{
+    width: 30%;
+    margin: 0 auto;
+}
+
+.contact__first-block{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.contact__title-block{
+    padding-left: 15px;
+}
+
+.contact__title{
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.header__meseg-block{
+    width: 30%;
+    margin: 0 auto;
+}
+
+.meseg__logo-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.meseg__logo-block{
+    display: block;
+    position: relative;
+    padding: 0px 15px 0px 15px;
+}
+
+.meseg__logo-block::before{
+    content: '|';
+    display: block;
+    position: absolute;
+    width: 1px;
+    bottom: -100px;
+    left: 40%;
+    height: 80px;
+    color: #4B78C4;
+}
+
+.meseg__logo{
+    width: 80%;
+}
+
+.meseg__links-block{
+    display: none;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px 0px 7px 0px;
+}
+
+.meseg__links{
+    width: 75%;
+    margin: 0 auto;
+}
+
+.meseg__title{
+    display: block;
+    font-size: 25px;
+    font-size: 700;
+    color: #fff ;
+    text-align: center;
+    padding-top: 56px; 
+}
+
+
+/* main__profile-block */
+
+.main__profile-block{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+.profile__title-block{
+    padding: 0px 20px 0px 26px;
+}
+
+.profile__title{
+    width: 100%;
+    font-size: 42px;
+    font-weight: 700;
+    color: #4B76C4;
+}
+
+.main__profile-block::after{
+    content: '';
+    display: inline-block;
+    width: 80%;
+    height: 1px;
+    background-color: #4B76C4;
+    position: relative;
+    top: 100%;
+
+}
+
+.profile__paragraph-block{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.profile__paragraph-text{
+    font-size: 24px;
+    font-weight: 300;
+    color: #2C2C2C;
+    line-height: 55px;
+    padding-right: 30px;
+}
+
+strong{
+    font-weight: 700;
+}
+
+
+/* main__list-block-row */
+
+
+.main__list-block-row{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 80px;
+    margin-bottom: 44px;
+}
+
+.skills__container{
+    width: 45%;
+}
+
+.skills__block{
+    display: flex;
+    align-items: center;
+}
+
+.tools__container{
+    width: 45%;
+}
+
+.tools__block{
+    display: flex;
+    align-items: center;
+}
+
+.skills__block::after, .tools__block::after{
+    content: '';
+    display: inline-block;
+    width: 100%;
+    height: 1px;
+    background-color: #4B76C4;
+    position: relative;
+    top: 100%;
+}
+
+
+
+/* list__block-row */
+
+
+
+.list__block{
+    margin-top: 40px;
+    width: 100%;
+}
+
+.list__title{
+    padding-left: 0px;
+}
+
+.list__text{
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 60px;
+    padding-right: 15px;
+}
+
+.list__text::before{
+    content: '';
+    display: inline-block;
+    width: 35px;
+    height: 25px;
+    background-color: #4B76C4;
+    position: relative;
+    top: 100%;
+    border-radius:0% 100% 50% 50% / 0% 50% 50% 100%;
+    transform: rotate(150deg);
+    margin-right: 20px;
+}
+
+
+
+/* main__date-container */
+
+
+
+.main__date-container{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.data__container-block{
+    position: relative;
+    width: 25%;
+    border-right: 3px dashed #3791C1; 
+    padding-right: 25px;
+}
+
+.data__block{
+    text-align: center;
+}
+
+.data__oval-img{
+    position: absolute;
+    right: -35px;
+    top: 0px;
+}
+
+.data__title{
+    font-size: 28px;
+    font-weight: 700;
+    color: #2C2C2C;
+    padding-bottom: 30px;
+}
+
+.data__subtitle{
+    font-size: 20px;
+    font-weight: 400;
+    color: #2C2C2C;
+}
+
+.description__container-block{
+    width: 75%;
+    padding-left: 65px;
+}
+
+.description__title{
+    font-size: 48px;
+    font-weight: 700;
+    color:#3791C1;
+}
+
+.description__subtitle{
+    font-size: 30px;
+    font-weight: 400;
+    color: #2C2C2C;
+    padding: 40px 0px;
+    letter-spacing: 3px;
+    line-height: 50px;
+}
+
+.description__list-block{
+    display: flex;
+    padding-bottom: 50px;
+}
+
+
+
+/* main__box-container */
+
+
+.main__box-container{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box__block{
+    width: 45%;
+    padding: 20px;
+}
+
+.box__block:nth-child(1){
+    background: rgba(55,145,193, 0.1)
+}
+
+.box__title{
+    font-size: 44px;
+    font-weight: 700;
+    color: #3791C1;
+}
+
+.box__subtitle{
+    font-size: 26px;
+    font-weight: 400;
+    color: #2C2C2C;
+    letter-spacing: 3px;
+    line-height: 30px;
+    padding: 36px 15px 18px 0px;
+}
+
+.box__comment{
+    font-size: 26px;
+    font-weight: 700;
+    color: #2C2C2C;
+}
+
+.main__website-link{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.main__website-link{
+    margin-bottom: 30px;
+}
+
+
+.footer{
+    width: 100%;
+    background: rgba(55,145,193, 0.1);
+    overflow: hidden;
+}
+
+
+
+
+
+.footer__container .box__block{
+    width: 80%;
+    margin: 0 auto;
+    background: none;
+}
+
+
